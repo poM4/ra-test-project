@@ -12,6 +12,7 @@ public class CountriesKeywords extends BaseKeyword<MyProjectKeywordManager> {
 
     private static final String GET_ALL = "/get/all";
     private static final String GET_ISO_CODE = "/get/iso2code/{alpha2_code}";
+    private static final String GET_COUNTRY_NAME = "search?text={countryName}";
 
     public CountriesKeywords(MyProjectKeywordManager keywordManager, Logger log) {
         super(keywordManager, log);
@@ -32,6 +33,17 @@ public class CountriesKeywords extends BaseKeyword<MyProjectKeywordManager> {
         rememberRestAssuredResponse(response);
         return keywordManager;
     }
+
+    @Step
+    public MyProjectKeywordManager getCountryByName (String countryName) {
+        Response response = given()
+                .when().get(GET_COUNTRY_NAME, countryName);
+        rememberRestAssuredResponse(response);
+        response.then().statusCode(200);
+        return keywordManager;
+    }
+
+
 
 
 }

@@ -12,6 +12,8 @@ import org.testng.annotations.Test;
 
 import java.util.Map;
 
+import static org.hamcrest.Matchers.equalTo;
+
 public class FindCountriesTest extends MyProjectTestCase {
 
     @Test
@@ -62,4 +64,21 @@ public class FindCountriesTest extends MyProjectTestCase {
         AssertJson.assertJsonEquals(actualResponse, expectedResponse);
 
     }
+
+    @Test
+    public void checkAlbaniaAlphaCode() {
+
+        Map<String, String> givenValues = Maps.newHashMap("name", "Albania", "alpha2_code", "AL", "alpha3_code", "ALB");
+
+        keywordManager.countries().getCountryByName("Albania");
+
+        Response response = whatIsTheRestAssuredResponse();
+//        response.then().body("messages", equalTo("Total [1] records found."));
+        response.then().body("RestResponse.result.alpha2_code", equalTo("[AL]"));
+
+
+
+
+    }
+
 }
