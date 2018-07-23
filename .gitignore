@@ -1,5 +1,5 @@
-target
-reports
-*.log*
-/.idea
-
+**/*.ipr
+**/*.iws
+**/*.iml
+**/*.idea
+**/*target/
