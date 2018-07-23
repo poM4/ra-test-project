@@ -73,12 +73,9 @@ public class FindCountriesTest extends MyProjectTestCase {
         keywordManager.countries().getCountryByName("Albania");
 
         Response response = whatIsTheRestAssuredResponse();
-//        response.then().body("messages", equalTo("Total [1] records found."));
-        response.then().body("RestResponse.result.alpha2_code", equalTo("[AL]"));
-
-
-
+        response.then()
+                .body("RestResponse.messages[0]", equalTo("Total [1] records found."))
+                .body("RestResponse.result[0].alpha2_code", equalTo("AL"));
 
     }
-
 }
