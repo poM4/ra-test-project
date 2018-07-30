@@ -74,8 +74,16 @@ public class FindCountriesTest extends MyProjectTestCase {
 
         Response response = whatIsTheRestAssuredResponse();
         response.then()
+                .statusCode(200)
                 .body("RestResponse.messages[0]", equalTo("Total [1] records found."))
                 .body("RestResponse.result[0].alpha2_code", equalTo("AL"));
+
+    }
+
+    @Test
+    public void brokenURIReturnsError() {
+
+        keywordManager.expectStatusCode(404, ()  -> keywordManager.countries().getBrokenURI());
 
     }
 }
