@@ -86,4 +86,12 @@ public class FindCountriesTest extends MyProjectTestCase {
         keywordManager.expectStatusCode(404, ()  -> keywordManager.countries().getBrokenURI());
 
     }
+
+    @Test
+    public void validateAlbaniaFields() {
+        keywordManager.countries().getResponseParsed("Albania");
+
+
+
+    }
 }

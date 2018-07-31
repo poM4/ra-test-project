@@ -50,12 +50,18 @@ public class CountriesKeywords extends BaseKeyword<MyProjectKeywordManager> {
         Response response = given()
                 .when().get(GET_ERROR_URI);
         rememberRestAssuredResponse(response);
-        System.out.println("Response" + response.toString());
+        return keywordManager;
+    }
+
+    @Step
+    public MyProjectKeywordManager getResponseParsed(String countryName) {
+        Response response = given()
+                .when().get(GET_COUNTRY_NAME, countryName).as(Response.class);
+        System.out.println(response.toString());
+        //rememberRestAssuredResponse(response);
 
 
         return keywordManager;
-
-
     }
 
 

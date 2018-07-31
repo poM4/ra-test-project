@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4576566b-2df7-480d-a829-776609cb2e8b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kingfisher/test/kdt/dictionary/HtmlSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kingfisher/test/kdt/dictionary/CountriesKeywords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingfisher/test/kdt/dictionary/CountriesKeywords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/kingfisher/test/countries/FindCountriesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kingfisher/test/countries/FindCountriesTest.java" afterDir="false" />
@@ -17,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FindCountriesTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindCountriesTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/kingfisher/test/countries/FindCountriesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+            <state relative-caret-position="252">
+              <caret line="91" column="61" selection-start-line="91" selection-start-column="61" selection-end-line="91" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -39,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CountriesKeywords.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CountriesKeywords.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kingfisher/test/kdt/dictionary/CountriesKeywords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+            <state relative-caret-position="119">
+              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -60,6 +59,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>responseSpec</find>
+      <find>.class</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -68,8 +68,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/kingfisher/test/countries/FindCountriesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kingfisher/test/kdt/dictionary/HtmlSample.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kingfisher/test/countries/FindCountriesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kingfisher/test/kdt/dictionary/CountriesKeywords.java" />
       </list>
     </option>
@@ -193,7 +193,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../KITS-Rest-Assured-Atg-Api-Tests/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../KITS-Fitnesse_Acceptance_Tests/pom.xml" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -213,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.FindCountriesTest.brokenURIReturnsError">
+  <component name="RunManager" selected="TestNG.FindCountriesTest.validateAlbaniaFields">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -323,7 +323,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="FindCountriesTest.checkAlbaniaIsPresent" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FindCountriesTest.checkTotalRecordsAndAlbaniaThird" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ra-test-project" />
       <extension name="coverage">
         <pattern>
@@ -336,7 +336,7 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.kingfisher.test.countries" />
       <option name="MAIN_CLASS_NAME" value="com.kingfisher.test.countries.FindCountriesTest" />
-      <option name="METHOD_NAME" value="checkAlbaniaIsPresent" />
+      <option name="METHOD_NAME" value="checkTotalRecordsAndAlbaniaThird" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -352,7 +352,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="FindCountriesTest.checkTotalRecordsAndAlbaniaThird" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FindCountriesTest.validateAlbaniaFields" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ra-test-project" />
       <extension name="coverage">
         <pattern>
@@ -365,7 +365,7 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.kingfisher.test.countries" />
       <option name="MAIN_CLASS_NAME" value="com.kingfisher.test.countries.FindCountriesTest" />
-      <option name="METHOD_NAME" value="checkTotalRecordsAndAlbaniaThird" />
+      <option name="METHOD_NAME" value="validateAlbaniaFields" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -420,17 +420,17 @@
     <list>
       <item itemvalue="TestNG.FindCountriesTest.checkTotalRecordsAndAlbaniaThird" />
       <item itemvalue="TestNG.FindCountriesTest.checkAlbaniaAlphaCode" />
-      <item itemvalue="TestNG.FindCountriesTest.checkAlbaniaIsPresent" />
       <item itemvalue="TestNG.FindCountriesTest.brokenLinkReturnsError" />
       <item itemvalue="TestNG.FindCountriesTest.brokenURIReturnsError" />
+      <item itemvalue="TestNG.FindCountriesTest.validateAlbaniaFields" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FindCountriesTest.validateAlbaniaFields" />
+        <item itemvalue="TestNG.FindCountriesTest.checkAlbaniaAlphaCode" />
         <item itemvalue="TestNG.FindCountriesTest.brokenURIReturnsError" />
         <item itemvalue="TestNG.FindCountriesTest.brokenLinkReturnsError" />
         <item itemvalue="TestNG.FindCountriesTest.checkTotalRecordsAndAlbaniaThird" />
-        <item itemvalue="TestNG.FindCountriesTest.checkAlbaniaAlphaCode" />
-        <item itemvalue="TestNG.FindCountriesTest.checkAlbaniaIsPresent" />
       </list>
     </recent_temporary>
   </component>
@@ -448,71 +448,77 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FindCountriesTest_checkAlbaniaAlphaCode - 2018.07.23 at 18h 41m 51s.xml">
-      <configuration name="FindCountriesTest.checkAlbaniaAlphaCode" configurationId="TestNG" />
+    <history-entry file="FindCountriesTest_validateAlbaniaFields - 2018.07.31 at 18h 11m 43s.xml">
+      <configuration name="FindCountriesTest.validateAlbaniaFields" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FindCountriesTest_checkAlbaniaAlphaCode - 2018.07.23 at 18h 42m 45s.xml">
-      <configuration name="FindCountriesTest.checkAlbaniaAlphaCode" configurationId="TestNG" />
+    <history-entry file="FindCountriesTest_validateAlbaniaFields - 2018.07.31 at 18h 12m 46s.xml">
+      <configuration name="FindCountriesTest.validateAlbaniaFields" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FindCountriesTest_checkAlbaniaAlphaCode - 2018.07.23 at 19h 06m 02s.xml">
-      <configuration name="FindCountriesTest.checkAlbaniaAlphaCode" configurationId="TestNG" />
+    <history-entry file="FindCountriesTest_validateAlbaniaFields - 2018.07.31 at 18h 15m 30s.xml">
+      <configuration name="FindCountriesTest.validateAlbaniaFields" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FindCountriesTest_brokenLinkReturnsError - 2018.07.25 at 09h 57m 09s.xml">
-      <configuration name="FindCountriesTest.brokenLinkReturnsError" configurationId="TestNG" />
+    <history-entry file="FindCountriesTest_validateAlbaniaFields - 2018.07.31 at 18h 48m 15s.xml">
+      <configuration name="FindCountriesTest.validateAlbaniaFields" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FindCountriesTest_checkTotalRecordsAndAlbaniaThird - 2018.07.25 at 10h 17m 45s.xml">
-      <configuration name="FindCountriesTest.checkTotalRecordsAndAlbaniaThird" configurationId="TestNG" />
+    <history-entry file="FindCountriesTest_validateAlbaniaFields - 2018.07.31 at 18h 57m 35s.xml">
+      <configuration name="FindCountriesTest.validateAlbaniaFields" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FindCountriesTest_brokenLinkReturnsError - 2018.07.25 at 10h 20m 45s.xml">
-      <configuration name="FindCountriesTest.brokenLinkReturnsError" configurationId="TestNG" />
+    <history-entry file="FindCountriesTest_validateAlbaniaFields - 2018.07.31 at 19h 00m 37s.xml">
+      <configuration name="FindCountriesTest.validateAlbaniaFields" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FindCountriesTest_brokenLinkReturnsError - 2018.07.25 at 10h 31m 56s.xml">
-      <configuration name="FindCountriesTest.brokenLinkReturnsError" configurationId="TestNG" />
+    <history-entry file="FindCountriesTest_validateAlbaniaFields - 2018.07.31 at 19h 05m 14s.xml">
+      <configuration name="FindCountriesTest.validateAlbaniaFields" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FindCountriesTest_brokenURIReturnsError - 2018.07.25 at 11h 04m 23s.xml">
-      <configuration name="FindCountriesTest.brokenURIReturnsError" configurationId="TestNG" />
+    <history-entry file="FindCountriesTest_validateAlbaniaFields - 2018.07.31 at 19h 06m 35s.xml">
+      <configuration name="FindCountriesTest.validateAlbaniaFields" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FindCountriesTest_brokenURIReturnsError - 2018.07.30 at 18h 47m 15s.xml">
-      <configuration name="FindCountriesTest.brokenURIReturnsError" configurationId="TestNG" />
+    <history-entry file="FindCountriesTest_validateAlbaniaFields - 2018.07.31 at 19h 08m 37s.xml">
+      <configuration name="FindCountriesTest.validateAlbaniaFields" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FindCountriesTest_brokenURIReturnsError - 2018.07.30 at 18h 49m 50s.xml">
-      <configuration name="FindCountriesTest.brokenURIReturnsError" configurationId="TestNG" />
+    <history-entry file="FindCountriesTest_validateAlbaniaFields - 2018.07.31 at 19h 09m 27s.xml">
+      <configuration name="FindCountriesTest.validateAlbaniaFields" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32897604" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.22331154" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34422657" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32897604" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4509804" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29424307" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/kingfisher/test/countries/FindCountriesTest.java">
@@ -785,17 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kingfisher/test/kdt/MyProjectKeywordManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
-          <folding>
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kingfisher/test/kdt/dictionary/HtmlSample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -810,17 +805,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kingfisher/test/kdt/dictionary/CountriesKeywords.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kingfisher/test/kdt/MyProjectKeywordManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+        <state relative-caret-position="119">
+          <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
+          <folding>
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/kingfisher/test/countries/FindCountriesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        <state relative-caret-position="252">
+          <caret line="91" column="61" selection-start-line="91" selection-start-column="61" selection-end-line="91" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kingfisher/test/kdt/dictionary/CountriesKeywords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
         </state>
       </provider>
     </entry>
